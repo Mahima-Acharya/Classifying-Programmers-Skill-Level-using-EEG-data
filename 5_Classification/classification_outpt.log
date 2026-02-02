@@ -1,0 +1,1066 @@
+Reading C:/Users/Mahima Acharya/Documents/BCI/Data/EEG_Result/Processing\features_alg_4to50hzbw_bldata.csv
+Label Encoding Mapping:
+Expert -> 0
+Novice -> 1
+-----------------------Initializing  RF----------------------- 
+
+*****Performing evaluation with Stratified10-fold CV*****
+
+1. Testing None : [ 2  4  7 10 11 13 18 24 28 35 36 38 49 50 55 58 59 60 61 62 66 68 70 71] , Accuracy: 84.9315, confusion matrix: [[35  6]
+ [ 5 27]]
+Classification Report:
+
+Class 0:
+  Precision: 0.88
+  Recall: 0.85
+  F1 Score: 0.86
+  Support: 41.0
+
+Class 1:
+  Precision: 0.82
+  Recall: 0.84
+  F1 Score: 0.83
+  Support: 32.0
+
+
+
+2. Testing None : [ 2  4  7 10 11 13 18 24 28 35 38 49 50 55 58 59 60 61 62 66 67 68 70 71] , Accuracy: 87.6712, confusion matrix: [[37  4]
+ [ 5 27]]
+Classification Report:
+
+Class 0:
+  Precision: 0.88
+  Recall: 0.90
+  F1 Score: 0.89
+  Support: 41.0
+
+Class 1:
+  Precision: 0.87
+  Recall: 0.84
+  F1 Score: 0.86
+  Support: 32.0
+
+
+
+3. Testing None : [ 2  4  7 10 11 13 18 24 28 35 36 38 49 50 55 58 59 60 61 62 66 67 68 70
+ 71] , Accuracy: 86.3014, confusion matrix: [[35  6]
+ [ 4 28]]
+Classification Report:
+
+Class 0:
+  Precision: 0.90
+  Recall: 0.85
+  F1 Score: 0.88
+  Support: 41.0
+
+Class 1:
+  Precision: 0.82
+  Recall: 0.88
+  F1 Score: 0.85
+  Support: 32.0
+
+
+
+4. Testing None : [ 2  4  7 10 11 13 18 24 28 35 36 38 49 50 55 58 59 60 61 62 66 67 68 70
+ 71] , Accuracy: 82.1918, confusion matrix: [[34  7]
+ [ 6 26]]
+Classification Report:
+
+Class 0:
+  Precision: 0.85
+  Recall: 0.83
+  F1 Score: 0.84
+  Support: 41.0
+
+Class 1:
+  Precision: 0.79
+  Recall: 0.81
+  F1 Score: 0.80
+  Support: 32.0
+
+
+
+5. Testing None : [ 2  4  7 10 11 13 18 24 28 35 36 38 49 50 58 59 60 61 62 66 67 68 70 71] , Accuracy: 75.3425, confusion matrix: [[28 13]
+ [ 5 27]]
+Classification Report:
+
+Class 0:
+  Precision: 0.85
+  Recall: 0.68
+  F1 Score: 0.76
+  Support: 41.0
+
+Class 1:
+  Precision: 0.68
+  Recall: 0.84
+  F1 Score: 0.75
+  Support: 32.0
+
+
+
+6. Testing None : [ 2  7 10 11 13 18 24 28 35 38 49 50 55 58 59 60 61 62 66 67 68 71] , Accuracy: 83.5616, confusion matrix: [[35  6]
+ [ 6 26]]
+Classification Report:
+
+Class 0:
+  Precision: 0.85
+  Recall: 0.85
+  F1 Score: 0.85
+  Support: 41.0
+
+Class 1:
+  Precision: 0.81
+  Recall: 0.81
+  F1 Score: 0.81
+  Support: 32.0
+
+
+
+7. Testing None : [ 2  4  7 10 11 13 18 24 28 35 36 38 49 55 58 59 60 61 62 66 67 68 71] , Accuracy: 86.3014, confusion matrix: [[36  5]
+ [ 5 27]]
+Classification Report:
+
+Class 0:
+  Precision: 0.88
+  Recall: 0.88
+  F1 Score: 0.88
+  Support: 41.0
+
+Class 1:
+  Precision: 0.84
+  Recall: 0.84
+  F1 Score: 0.84
+  Support: 32.0
+
+
+
+8. Testing None : [ 2  4 10 11 13 18 24 28 35 36 38 49 50 55 58 59 60 61 62 66 67 68 70 71] , Accuracy: 81.9444, confusion matrix: [[35  6]
+ [ 7 24]]
+Classification Report:
+
+Class 0:
+  Precision: 0.83
+  Recall: 0.85
+  F1 Score: 0.84
+  Support: 41.0
+
+Class 1:
+  Precision: 0.80
+  Recall: 0.77
+  F1 Score: 0.79
+  Support: 31.0
+
+
+
+9. Testing None : [ 2  4  7 10 11 13 18 24 28 35 36 38 50 55 58 59 60 61 62 66 67 68 70 71] , Accuracy: 88.8889, confusion matrix: [[36  4]
+ [ 4 28]]
+Classification Report:
+
+Class 0:
+  Precision: 0.90
+  Recall: 0.90
+  F1 Score: 0.90
+  Support: 40.0
+
+Class 1:
+  Precision: 0.88
+  Recall: 0.88
+  F1 Score: 0.88
+  Support: 32.0
+
+
+
+10. Testing None : [ 2  4  7 10 11 13 18 24 28 35 36 38 49 50 55 58 59 60 61 62 66 67 68 70
+ 71] , Accuracy: 90.2778, confusion matrix: [[39  1]
+ [ 6 26]]
+Classification Report:
+
+Class 0:
+  Precision: 0.87
+  Recall: 0.97
+  F1 Score: 0.92
+  Support: 40.0
+
+Class 1:
+  Precision: 0.96
+  Recall: 0.81
+  F1 Score: 0.88
+  Support: 32.0
+
+
+
+
+ Average Accuracy: 84.7413
+
+ Average Confusion Matrix: [[35.  6.]
+ [ 5. 27.]] 
+
+Average Classification Report across all folds for each class:
+Class 0:
+  Precision: 86.84
+  Recall: 85.82
+  F1 Score: 86.20
+  Support: 4080.00
+
+Class 1:
+  Precision: 82.70
+  Recall: 83.37
+  F1 Score: 82.86
+  Support: 3190.00
+
+Reading C:/Users/Mahima Acharya/Documents/BCI/Data/EEG_Result/Processing\features_alg_4to50hzbw_bldata.csv
+Label Encoding Mapping:
+Expert -> 0
+Novice -> 1
+-----------------------Initializing  RF----------------------- 
+
+*****Performing evaluation with Stratified10-fold CV*****
+
+1. Testing None : [ 2  4  7 10 11 13 18 24 28 35 36 38 49 50 55 58 59 60 61 62 66 68 70 71] , Accuracy: 84.9315, confusion matrix: [[35  6]
+ [ 5 27]]
+Classification Report:
+
+Class 0:
+  Precision: 0.88
+  Recall: 0.85
+  F1 Score: 0.86
+  Support: 41.0
+
+Class 1:
+  Precision: 0.82
+  Recall: 0.84
+  F1 Score: 0.83
+  Support: 32.0
+
+
+
+2. Testing None : [ 2  4  7 10 11 13 18 24 28 35 38 49 50 55 58 59 60 61 62 66 67 68 70 71] , Accuracy: 87.6712, confusion matrix: [[37  4]
+ [ 5 27]]
+Classification Report:
+
+Class 0:
+  Precision: 0.88
+  Recall: 0.90
+  F1 Score: 0.89
+  Support: 41.0
+
+Class 1:
+  Precision: 0.87
+  Recall: 0.84
+  F1 Score: 0.86
+  Support: 32.0
+
+
+
+3. Testing None : [ 2  4  7 10 11 13 18 24 28 35 36 38 49 50 55 58 59 60 61 62 66 67 68 70
+ 71] , Accuracy: 86.3014, confusion matrix: [[35  6]
+ [ 4 28]]
+Classification Report:
+
+Class 0:
+  Precision: 0.90
+  Recall: 0.85
+  F1 Score: 0.88
+  Support: 41.0
+
+Class 1:
+  Precision: 0.82
+  Recall: 0.88
+  F1 Score: 0.85
+  Support: 32.0
+
+
+
+4. Testing None : [ 2  4  7 10 11 13 18 24 28 35 36 38 49 50 55 58 59 60 61 62 66 67 68 70
+ 71] , Accuracy: 82.1918, confusion matrix: [[34  7]
+ [ 6 26]]
+Classification Report:
+
+Class 0:
+  Precision: 0.85
+  Recall: 0.83
+  F1 Score: 0.84
+  Support: 41.0
+
+Class 1:
+  Precision: 0.79
+  Recall: 0.81
+  F1 Score: 0.80
+  Support: 32.0
+
+
+
+5. Testing None : [ 2  4  7 10 11 13 18 24 28 35 36 38 49 50 58 59 60 61 62 66 67 68 70 71] , Accuracy: 75.3425, confusion matrix: [[28 13]
+ [ 5 27]]
+Classification Report:
+
+Class 0:
+  Precision: 0.85
+  Recall: 0.68
+  F1 Score: 0.76
+  Support: 41.0
+
+Class 1:
+  Precision: 0.68
+  Recall: 0.84
+  F1 Score: 0.75
+  Support: 32.0
+
+
+
+6. Testing None : [ 2  7 10 11 13 18 24 28 35 38 49 50 55 58 59 60 61 62 66 67 68 71] , Accuracy: 83.5616, confusion matrix: [[35  6]
+ [ 6 26]]
+Classification Report:
+
+Class 0:
+  Precision: 0.85
+  Recall: 0.85
+  F1 Score: 0.85
+  Support: 41.0
+
+Class 1:
+  Precision: 0.81
+  Recall: 0.81
+  F1 Score: 0.81
+  Support: 32.0
+
+
+
+7. Testing None : [ 2  4  7 10 11 13 18 24 28 35 36 38 49 55 58 59 60 61 62 66 67 68 71] , Accuracy: 86.3014, confusion matrix: [[36  5]
+ [ 5 27]]
+Classification Report:
+
+Class 0:
+  Precision: 0.88
+  Recall: 0.88
+  F1 Score: 0.88
+  Support: 41.0
+
+Class 1:
+  Precision: 0.84
+  Recall: 0.84
+  F1 Score: 0.84
+  Support: 32.0
+
+
+
+8. Testing None : [ 2  4 10 11 13 18 24 28 35 36 38 49 50 55 58 59 60 61 62 66 67 68 70 71] , Accuracy: 81.9444, confusion matrix: [[35  6]
+ [ 7 24]]
+Classification Report:
+
+Class 0:
+  Precision: 0.83
+  Recall: 0.85
+  F1 Score: 0.84
+  Support: 41.0
+
+Class 1:
+  Precision: 0.80
+  Recall: 0.77
+  F1 Score: 0.79
+  Support: 31.0
+
+
+
+9. Testing None : [ 2  4  7 10 11 13 18 24 28 35 36 38 50 55 58 59 60 61 62 66 67 68 70 71] , Accuracy: 88.8889, confusion matrix: [[36  4]
+ [ 4 28]]
+Classification Report:
+
+Class 0:
+  Precision: 0.90
+  Recall: 0.90
+  F1 Score: 0.90
+  Support: 40.0
+
+Class 1:
+  Precision: 0.88
+  Recall: 0.88
+  F1 Score: 0.88
+  Support: 32.0
+
+
+
+10. Testing None : [ 2  4  7 10 11 13 18 24 28 35 36 38 49 50 55 58 59 60 61 62 66 67 68 70
+ 71] , Accuracy: 90.2778, confusion matrix: [[39  1]
+ [ 6 26]]
+Classification Report:
+
+Class 0:
+  Precision: 0.87
+  Recall: 0.97
+  F1 Score: 0.92
+  Support: 40.0
+
+Class 1:
+  Precision: 0.96
+  Recall: 0.81
+  F1 Score: 0.88
+  Support: 32.0
+
+
+
+
+ Average Accuracy: 84.7413
+
+ Average Confusion Matrix: [[35.  6.]
+ [ 5. 27.]] 
+
+Average Classification Report across all folds for each class:
+Class 0:
+  Precision: 86.84
+  Recall: 85.82
+  F1 Score: 86.20
+  Support: 4080.00
+
+Class 1:
+  Precision: 82.70
+  Recall: 83.37
+  F1 Score: 82.86
+  Support: 3190.00
+
+*****Performing evaluation with Leave-One-Subject-Out CV*****
+
+1. Testing Participant : [71] , Accuracy: 96.875, confusion matrix: [[31  1]
+ [ 0  0]]
+Classification Report:
+
+Class 0:
+  Precision: 1.00
+  Recall: 0.97
+  F1 Score: 0.98
+  Support: 32.0
+
+Class 1:
+  Precision: 0.00
+  Recall: 0.00
+  F1 Score: 0.00
+  Support: 0.0
+
+
+
+2. Testing Participant : [50] , Accuracy: 6.25, confusion matrix: [[ 0  0]
+ [30  2]]
+Classification Report:
+
+Class 0:
+  Precision: 0.00
+  Recall: 0.00
+  F1 Score: 0.00
+  Support: 0.0
+
+Class 1:
+  Precision: 1.00
+  Recall: 0.06
+  F1 Score: 0.12
+  Support: 32.0
+
+
+
+3. Testing Participant : [4] , Accuracy: 90.625, confusion matrix: [[29  3]
+ [ 0  0]]
+Classification Report:
+
+Class 0:
+  Precision: 1.00
+  Recall: 0.91
+  F1 Score: 0.95
+  Support: 32.0
+
+Class 1:
+  Precision: 0.00
+  Recall: 0.00
+  F1 Score: 0.00
+  Support: 0.0
+
+
+
+4. Testing Participant : [7] , Accuracy: 78.125, confusion matrix: [[25  7]
+ [ 0  0]]
+Classification Report:
+
+Class 0:
+  Precision: 1.00
+  Recall: 0.78
+  F1 Score: 0.88
+  Support: 32.0
+
+Class 1:
+  Precision: 0.00
+  Recall: 0.00
+  F1 Score: 0.00
+  Support: 0.0
+
+
+
+5. Testing Participant : [10] , Accuracy: 87.5, confusion matrix: [[28  4]
+ [ 0  0]]
+Classification Report:
+
+Class 0:
+  Precision: 1.00
+  Recall: 0.88
+  F1 Score: 0.93
+  Support: 32.0
+
+Class 1:
+  Precision: 0.00
+  Recall: 0.00
+  F1 Score: 0.00
+  Support: 0.0
+
+
+
+6. Testing Participant : [13] , Accuracy: 93.75, confusion matrix: [[30  2]
+ [ 0  0]]
+Classification Report:
+
+Class 0:
+  Precision: 1.00
+  Recall: 0.94
+  F1 Score: 0.97
+  Support: 32.0
+
+Class 1:
+  Precision: 0.00
+  Recall: 0.00
+  F1 Score: 0.00
+  Support: 0.0
+
+
+
+7. Testing Participant : [35] , Accuracy: 84.375, confusion matrix: [[27  5]
+ [ 0  0]]
+Classification Report:
+
+Class 0:
+  Precision: 1.00
+  Recall: 0.84
+  F1 Score: 0.92
+  Support: 32.0
+
+Class 1:
+  Precision: 0.00
+  Recall: 0.00
+  F1 Score: 0.00
+  Support: 0.0
+
+
+
+8. Testing Participant : [36] , Accuracy: 90.625, confusion matrix: [[29  3]
+ [ 0  0]]
+Classification Report:
+
+Class 0:
+  Precision: 1.00
+  Recall: 0.91
+  F1 Score: 0.95
+  Support: 32.0
+
+Class 1:
+  Precision: 0.00
+  Recall: 0.00
+  F1 Score: 0.00
+  Support: 0.0
+
+
+
+9. Testing Participant : [38] , Accuracy: 65.625, confusion matrix: [[21 11]
+ [ 0  0]]
+Classification Report:
+
+Class 0:
+  Precision: 1.00
+  Recall: 0.66
+  F1 Score: 0.79
+  Support: 32.0
+
+Class 1:
+  Precision: 0.00
+  Recall: 0.00
+  F1 Score: 0.00
+  Support: 0.0
+
+
+
+10. Testing Participant : [2] , Accuracy: 75.0, confusion matrix: [[24  8]
+ [ 0  0]]
+Classification Report:
+
+Class 0:
+  Precision: 1.00
+  Recall: 0.75
+  F1 Score: 0.86
+  Support: 32.0
+
+Class 1:
+  Precision: 0.00
+  Recall: 0.00
+  F1 Score: 0.00
+  Support: 0.0
+
+
+
+11. Testing Participant : [60] , Accuracy: 90.625, confusion matrix: [[29  3]
+ [ 0  0]]
+Classification Report:
+
+Class 0:
+  Precision: 1.00
+  Recall: 0.91
+  F1 Score: 0.95
+  Support: 32.0
+
+Class 1:
+  Precision: 0.00
+  Recall: 0.00
+  F1 Score: 0.00
+  Support: 0.0
+
+
+
+12. Testing Participant : [62] , Accuracy: 84.375, confusion matrix: [[27  5]
+ [ 0  0]]
+Classification Report:
+
+Class 0:
+  Precision: 1.00
+  Recall: 0.84
+  F1 Score: 0.92
+  Support: 32.0
+
+Class 1:
+  Precision: 0.00
+  Recall: 0.00
+  F1 Score: 0.00
+  Support: 0.0
+
+
+
+13. Testing Participant : [66] , Accuracy: 96.875, confusion matrix: [[31  1]
+ [ 0  0]]
+Classification Report:
+
+Class 0:
+  Precision: 1.00
+  Recall: 0.97
+  F1 Score: 0.98
+  Support: 32.0
+
+Class 1:
+  Precision: 0.00
+  Recall: 0.00
+  F1 Score: 0.00
+  Support: 0.0
+
+
+
+14. Testing Participant : [61] , Accuracy: 86.6667, confusion matrix: [[ 0  0]
+ [ 4 26]]
+Classification Report:
+
+Class 0:
+  Precision: 0.00
+  Recall: 0.00
+  F1 Score: 0.00
+  Support: 0.0
+
+Class 1:
+  Precision: 1.00
+  Recall: 0.87
+  F1 Score: 0.93
+  Support: 30.0
+
+
+
+15. Testing Participant : [28] , Accuracy: 60.0, confusion matrix: [[ 0  0]
+ [12 18]]
+Classification Report:
+
+Class 0:
+  Precision: 0.00
+  Recall: 0.00
+  F1 Score: 0.00
+  Support: 0.0
+
+Class 1:
+  Precision: 1.00
+  Recall: 0.60
+  F1 Score: 0.75
+  Support: 30.0
+
+
+
+16. Testing Participant : [59] , Accuracy: 0.0, confusion matrix: [[ 0  0]
+ [28  0]]
+Classification Report:
+
+Class 0:
+  Precision: 0.00
+  Recall: 0.00
+  F1 Score: 0.00
+  Support: 0.0
+
+Class 1:
+  Precision: 0.00
+  Recall: 0.00
+  F1 Score: 0.00
+  Support: 28.0
+
+
+
+17. Testing Participant : [55] , Accuracy: 100.0, confusion matrix: [[27]]
+Classification Report:
+
+Class 1:
+  Precision: 1.00
+  Recall: 1.00
+  F1 Score: 1.00
+  Support: 27.0
+
+
+
+18. Testing Participant : [70] , Accuracy: 100.0, confusion matrix: [[27]]
+Classification Report:
+
+Class 1:
+  Precision: 1.00
+  Recall: 1.00
+  F1 Score: 1.00
+  Support: 27.0
+
+
+
+19. Testing Participant : [18] , Accuracy: 100.0, confusion matrix: [[27]]
+Classification Report:
+
+Class 1:
+  Precision: 1.00
+  Recall: 1.00
+  F1 Score: 1.00
+  Support: 27.0
+
+
+
+20. Testing Participant : [24] , Accuracy: 88.4615, confusion matrix: [[ 0  0]
+ [ 3 23]]
+Classification Report:
+
+Class 0:
+  Precision: 0.00
+  Recall: 0.00
+  F1 Score: 0.00
+  Support: 0.0
+
+Class 1:
+  Precision: 1.00
+  Recall: 0.88
+  F1 Score: 0.94
+  Support: 26.0
+
+
+
+21. Testing Participant : [58] , Accuracy: 62.5, confusion matrix: [[ 0  0]
+ [ 9 15]]
+Classification Report:
+
+Class 0:
+  Precision: 0.00
+  Recall: 0.00
+  F1 Score: 0.00
+  Support: 0.0
+
+Class 1:
+  Precision: 1.00
+  Recall: 0.62
+  F1 Score: 0.77
+  Support: 24.0
+
+
+
+22. Testing Participant : [11] , Accuracy: 83.3333, confusion matrix: [[ 0  0]
+ [ 4 20]]
+Classification Report:
+
+Class 0:
+  Precision: 0.00
+  Recall: 0.00
+  F1 Score: 0.00
+  Support: 0.0
+
+Class 1:
+  Precision: 1.00
+  Recall: 0.83
+  F1 Score: 0.91
+  Support: 24.0
+
+
+
+23. Testing Participant : [67] , Accuracy: 79.1667, confusion matrix: [[ 0  0]
+ [ 5 19]]
+Classification Report:
+
+Class 0:
+  Precision: 0.00
+  Recall: 0.00
+  F1 Score: 0.00
+  Support: 0.0
+
+Class 1:
+  Precision: 1.00
+  Recall: 0.79
+  F1 Score: 0.88
+  Support: 24.0
+
+
+
+24. Testing Participant : [68] , Accuracy: 0.0, confusion matrix: [[ 0 24]
+ [ 0  0]]
+Classification Report:
+
+Class 0:
+  Precision: 0.00
+  Recall: 0.00
+  F1 Score: 0.00
+  Support: 24.0
+
+Class 1:
+  Precision: 0.00
+  Recall: 0.00
+  F1 Score: 0.00
+  Support: 0.0
+
+
+
+25. Testing Participant : [49] , Accuracy: 100.0, confusion matrix: [[20]]
+Classification Report:
+
+Class 1:
+  Precision: 1.00
+  Recall: 1.00
+  F1 Score: 1.00
+  Support: 20.0
+
+
+
+
+ Average Accuracy: 76.0301
+
+ Average Confusion Matrix: [[17.  3.]
+ [ 4.  5.]] 
+
+Average Classification Report across all folds for each class:
+Class 0:
+  Precision: 57.14
+  Recall: 49.26
+  F1 Score: 52.76
+  Support: 1942.86
+
+Class 1:
+  Precision: 44.00
+  Recall: 34.66
+  F1 Score: 37.19
+  Support: 1276.00
+
+
+ Maximum Accuracy --- Testing Participant : [55] , Accuracy: 100.0, confusion matrix : [[27]] 
+
+*****Performing evaluation with Leave-One-Algorithm-Out CV*****
+
+1. Testing Algorithm : ['SmallGauss'] , Accuracy: 84.0, confusion matrix: [[11  2]
+ [ 2 10]]
+Classification Report:
+
+Class 0:
+  Precision: 0.85
+  Recall: 0.85
+  F1 Score: 0.85
+  Support: 13.0
+
+Class 1:
+  Precision: 0.83
+  Recall: 0.83
+  F1 Score: 0.83
+  Support: 12.0
+
+
+
+2. Testing Algorithm : ['BinarySearch'] , Accuracy: 88.0, confusion matrix: [[12  1]
+ [ 2 10]]
+Classification Report:
+
+Class 0:
+  Precision: 0.86
+  Recall: 0.92
+  F1 Score: 0.89
+  Support: 13.0
+
+Class 1:
+  Precision: 0.91
+  Recall: 0.83
+  F1 Score: 0.87
+  Support: 12.0
+
+
+
+3. Testing Algorithm : ['BogoSort'] , Accuracy: 92.0, confusion matrix: [[13  0]
+ [ 2 10]]
+Classification Report:
+
+Class 0:
+  Precision: 0.87
+  Recall: 1.00
+  F1 Score: 0.93
+  Support: 13.0
+
+Class 1:
+  Precision: 1.00
+  Recall: 0.83
+  F1 Score: 0.91
+  Support: 12.0
+
+
+
+4. Testing Algorithm : ['DropNumber'] , Accuracy: 88.0, confusion matrix: [[11  2]
+ [ 1 11]]
+Classification Report:
+
+Class 0:
+  Precision: 0.92
+  Recall: 0.85
+  F1 Score: 0.88
+  Support: 13.0
+
+Class 1:
+  Precision: 0.85
+  Recall: 0.92
+  F1 Score: 0.88
+  Support: 12.0
+
+
+
+5. Testing Algorithm : ['IsPrime'] , Accuracy: 87.5, confusion matrix: [[12  1]
+ [ 2  9]]
+Classification Report:
+
+Class 0:
+  Precision: 0.86
+  Recall: 0.92
+  F1 Score: 0.89
+  Support: 13.0
+
+Class 1:
+  Precision: 0.90
+  Recall: 0.82
+  F1 Score: 0.86
+  Support: 11.0
+
+
+
+6. Testing Algorithm : ['LengthOfLast'] , Accuracy: 79.1667, confusion matrix: [[10  3]
+ [ 2  9]]
+Classification Report:
+
+Class 0:
+  Precision: 0.83
+  Recall: 0.77
+  F1 Score: 0.80
+  Support: 13.0
+
+Class 1:
+  Precision: 0.75
+  Recall: 0.82
+  F1 Score: 0.78
+  Support: 11.0
+
+
+
+7. Testing Algorithm : ['ArrayAverage'] , Accuracy: 75.0, confusion matrix: [[ 7  5]
+ [ 1 11]]
+Classification Report:
+
+Class 0:
+  Precision: 0.88
+  Recall: 0.58
+  F1 Score: 0.70
+  Support: 12.0
+
+Class 1:
+  Precision: 0.69
+  Recall: 0.92
+  F1 Score: 0.79
+  Support: 12.0
+
+
+
+8. Testing Algorithm : ['BinToDecimal'] , Accuracy: 83.3333, confusion matrix: [[11  2]
+ [ 2  9]]
+Classification Report:
+
+Class 0:
+  Precision: 0.85
+  Recall: 0.85
+  F1 Score: 0.85
+  Support: 13.0
+
+Class 1:
+  Precision: 0.82
+  Recall: 0.82
+  F1 Score: 0.82
+  Support: 11.0
+
+
+
+9. Testing Algorithm : ['HeightOfTree'] , Accuracy: 91.6667, confusion matrix: [[12  0]
+ [ 2 10]]
+Classification Report:
+
+Class 0:
+  Precision: 0.86
+  Recall: 1.00
+  F1 Score: 0.92
+  Support: 12.0
+
+Class 1:
+  Precision: 1.00
+  Recall: 0.83
+  F1 Score: 0.91
+  Support: 12.0
+
+
+
+10. Testing Algorithm : ['Ackerman'] , Accuracy: 79.1667, confusion matrix: [[10  3]
+ [ 2  9]]
+Classification Report:
+
+Class 0:
+  Precision: 0.83
+  Recall: 0.77
+  F1 Score: 0.80
+  Support: 13.0
+
+Class 1:
+  Precision: 0.75
+  Recall: 0.82
+  F1 Score: 0.78
+  Support: 11.0
+
+
+
+11. Testing Algorithm : ['Vehicle'] , Accuracy: 91.3043, confusion matrix: [[12  0]
+ [ 2  9]]
+Classification Report:
+
+Class 0:
+  Precision: 0.86
+  Recall: 1.00
+  F1 Score: 0.92
+  Support: 12.0
+
+Class 1:
+  Precision: 1.00
+  Recall: 0.82
+  F1 Score: 0.90
+  Support: 11.0
+
+
+
